@@ -1,0 +1,175 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+/*barra de navegacion*/
+nav ul li a{
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+    nav ul{
+        list-style-type:none;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;}
+
+    nav ul li{
+        margin: 3%;
+        color: white;
+        font-family: 'Archivo Black', sans-serif;
+        font-family: 'Atomic Age', cursive;
+        font-family: 'Bebas Neue', cursive;
+        font-family: 'Codystar', cursive;
+        font-family: 'Concert One', cursive;
+        font-family: 'Courgette', cursive;
+        font-family: 'Lobster', cursive;
+        font-family: 'Major Mono Display', monospace;
+        font-family: 'Noto Sans Avestan', sans-serif;
+        font-family: 'Qwitcher Grypen', cursive;
+        font-family: 'Zen Dots', cursive;}
+
+    nav ul li{
+        list-style: none;
+        list-style-type: none;}
+
+
+/*index*/
+    h3{
+        color: darkgoldenrod;
+        font-family: 'Archivo Black', sans-serif;
+        font-family: 'Atomic Age', cursive;
+        font-family: 'Bebas Neue', cursive;
+        font-family: 'Codystar', cursive;
+        font-family: 'Concert One', cursive;
+        font-family: 'Courgette', cursive;
+        font-family: 'Lobster', cursive;
+        font-family: 'Major Mono Display', monospace;
+        font-family: 'Noto Sans Avestan', sans-serif;
+        font-family: 'Qwitcher Grypen', cursive;
+        font-family: 'Zen Dots', cursive;
+        display: flex;
+        justify-content: center;
+    }
+
+   
+    p{
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+        display: flex;
+        justify-content: center;}
+
+    h1{
+        font-family: 'Archivo Black', sans-serif;
+        font-family: 'Atomic Age', cursive;
+        font-family: 'Bebas Neue', cursive;
+        font-family: 'Codystar', cursive;
+        font-family: 'Concert One', cursive;
+        font-family: 'Courgette', cursive;
+        font-family: 'Lobster', cursive;
+        font-family: 'Major Mono Display', monospace;
+        font-family: 'Noto Sans Avestan', sans-serif;
+        font-family: 'Qwitcher Grypen', cursive;
+        font-family: 'Zen Dots', cursive;}
+
+    h1{
+        display: flex;
+        justify-content: center;
+        color: darkgoldenrod;}
+
+ 
+    body{
+        background-image: url(./imagenes/WhatsApp\ Image\ 2022-09-04\ at\ 8.36.57\ PM\ \(1\).jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;}
+ 
+
+  
+                                                  
+
+/*nutricion*/
+
+
+       
+                                             
+
+/*clases*/
+    table{color: white;
+    display: flex;
+    justify-content: center;}
+
+                                                
+                 
+/*ubicacion*/
+                                                     
+    section{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;}
+    
+    
+
+
+
+/*productos*/
+
+  .ft{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;  
+    grid-template-areas: 
+    "nuf alf"
+    "nu al"
+;  
+  }
+  .nuezt{
+    
+    grid-area: nu;
+}
+.nuezf{
+    
+    grid-area: nuf;
+}
+.almendrat{
+   
+    grid-area: al;
+}
+.almendraf{
+    
+    grid-area: alf;
+}
+
+  @media screen and (max-width: 480px ) { 
+    .ft{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;  
+        grid-template-areas:
+        "nuf"
+        "nu"
+        "alf"
+        "al" ;
+    }
+  }
+
+    
+
+/*contacto*/
+    .ig{
+        display: inline;
+        margin-right: 700px;}
+
+    .fb{
+        display: inline;
+        margin-right: 700px;}
+
+    .whp{
+        display: inline;}    
+
+    .igim{
+        height: 225px;
+        width: 225px;}                             
+    
