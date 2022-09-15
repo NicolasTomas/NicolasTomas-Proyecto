@@ -1,14 +1,15 @@
 
-body{
-    margin: 0%;
-    padding: 0%;
-}
+
 /*barra de navegacion*/
+a:hover{
+    color: darkcyan;
+}
 nav ul li a{
     list-style: none;
     list-style-type: none;
     text-decoration: none;
     color: white;
+
 }
 
     nav ul{
@@ -40,7 +41,7 @@ nav ul li a{
        
 /*index*/
     h3{
-        color: darkgoldenrod;
+        color: darkcyan;
         font-family: 'Archivo Black', sans-serif;
         font-family: 'Atomic Age', cursive;
         font-family: 'Bebas Neue', cursive;
@@ -79,7 +80,7 @@ nav ul li a{
     h1{
         display: flex;
         justify-content: center;
-        color: darkgoldenrod;}
+        color: darkcyan;}
 
  
     body{
@@ -159,18 +160,16 @@ nav ul li a{
     
 
 /*contacto*/
-    .ig{
-        display: inline;
-        margin-right: 700px;}
-
-    .fb{
-        display: inline;
-        margin-right: 700px;}
-
-    .whp{
-        display: inline;}    
-
-    .igim{
-        height: 225px;
-        width: 225px;}                             
+         
+   
+.instagram{
+    background-color: black;
+}
+.facebook{
+    background-color: black;
+}
+.whatsapp{
+    background-color: black;
+}
+      
     
