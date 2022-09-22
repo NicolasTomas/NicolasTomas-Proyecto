@@ -1,0 +1,30 @@
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+nav ul li {
+  margin: 3%;
+  color: white;
+  font-family: "Archivo Black", sans-serif;
+  font-family: "Atomic Age", cursive;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Codystar", cursive;
+  font-family: "Concert One", cursive;
+  font-family: "Courgette", cursive;
+  font-family: "Lobster", cursive;
+  font-family: "Major Mono Display", monospace;
+  font-family: "Noto Sans Avestan", sans-serif;
+  font-family: "Qwitcher Grypen", cursive;
+  font-family: "Zen Dots", cursive;
+  list-style: none;
+  list-style-type: none;
+}
+nav ul li a {
+  list-style: none;
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+/*# sourceMappingURL=styles.css.map */
